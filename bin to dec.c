@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n=011011,sum=0,rem,bin=1;
+	int n=1101,sum=0,rem,bin=1;
 	while(n!=0)
 	{
 		rem=n%10;
