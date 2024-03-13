@@ -7,7 +7,7 @@ int main()
 		rem=n%10;
 		sum=sum+rem*bin;
 		n=n/10;
-		bin=bin*7;
+		bin=bin*2;
 	}
 	printf("The decimal number is %d",sum);
 	return 0;
