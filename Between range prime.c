@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,max=50,min=1,count=0;
+	int i,j,max=50,min=1,count;
 	for(i=min;i<=max;i++)
 	{
-		
+		cont=0;
 		for(j=1;j<=i;j++)
 		{
 			if(i%j==0)
